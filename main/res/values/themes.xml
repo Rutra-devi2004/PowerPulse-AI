@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ✅ Main app theme — referenced by AndroidManifest.xml -->
+    <style name="Theme.PowerPulse" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryDark">#121212</item>
+        <item name="colorAccent">#BB86FC</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#121212</item>
+    </style>
+
+    <!-- Dark dialog — used in Night Charging + Permission dialogs -->
+    <style name="DarkAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">#1E1E1E</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorAccent">#BB86FC</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PurpleButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/PurpleButton</item>
+    </style>
+
+    <style name="PurpleButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#BB86FC</item>
+    </style>
+
+</resources>

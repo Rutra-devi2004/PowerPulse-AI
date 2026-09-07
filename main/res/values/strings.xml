@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">PowerPulse</string>
+
+    <!-- Battery Status -->
+    <string name="battery_status_default">--%</string>
+    <string name="estimated_time_default">Calculating Life...</string>
+
+    <!-- Tabs -->
+    <string name="tab_app_wise">APP WISE</string>
+    <string name="tab_weekly">WEEKLY</string>
+
+    <!-- Alert Interval -->
+    <string name="alert_interval_label">ALERT INTERVAL</string>
+    <string name="radio_3m">3m</string>
+    <string name="radio_15m">15m</string>
+    <string name="radio_1h">1h</string>
+    <string name="radio_2h">2h</string>
+
+    <!-- Smart Guardian -->
+    <string name="guardian_title">Smart Battery Guardian</string>
+    <string name="guardian_scanning">Scanning battery usage...</string>
+    <string name="guardian_all_good">All good! Battery usage is normal.</string>
+
+    <!-- Advanced Dashboard Button -->
+    <string name="btn_advanced_dashboard">View Advanced Battery Dashboard</string>
+
+    <!-- Permission Dialog -->
+    <string name="permission_title">Permission Required</string>
+    <string name="permission_message">PowerPulse needs Usage Access permission to show real app names and battery usage.\n\nPlease enable it in the next screen.</string>
+    <string name="permission_open_settings">Open Settings</string>
+    <string name="permission_exit">Exit</string>
+
+    <!-- Night Charging Dialog -->
+    <string name="night_charging_title">Night Charging Detected</string>
+    <string name="night_charging_message">It is night time (10 PM – 4 AM).\n\nChoose your charging mode to protect battery health.\n\nFast Charge → Charges quickly\nSlow Charge → Better for battery health</string>
+    <string name="fast_charge">Fast Charge</string>
+    <string name="slow_charge">Slow Charge</string>
+    <string name="fast_charge_selected">Fast Charging mode selected.</string>
+    <string name="slow_charge_selected">Slow Charging selected — protecting battery health.</string>
+
+    <!-- Notifications -->
+    <string name="notif_battery_full_title">Battery Almost Full</string>
+    <string name="notif_battery_full_msg">Battery almost full. Consider unplugging to protect battery health.</string>
+    <string name="notif_overheat_title">Device Overheating</string>
+    <string name="notif_shutdown_title">Phone Shutting Down</string>
+    <string name="notif_shutdown_msg">Apps are still running in the background</string>
+    <string name="notif_background_title">Background Apps Detected</string>
+
+    <!-- Advanced Dashboard Labels -->
+    <string name="dashboard_title">PowerPulse Advanced</string>
+    <string name="dashboard_subtitle">AI-Powered Battery Intelligence</string>
+    <string name="section_health_score">Battery Health Score</string>
+    <string name="section_battery_saver">Intelligent Battery Saver</string>
+    <string name="section_usage_pattern">Smart Usage Pattern</string>
+    <string name="section_drain_analyzer">Real Battery Drain Analyzer</string>
+    <string name="section_idle_apps">Idle App Detection</string>
+    <string name="section_weekly_report">Weekly Smart Report</string>
+
+    <!-- Weekly Report Labels -->
+    <string name="report_most_used">Most Used App</string>
+    <string name="report_usage_week">Usage This Week</string>
+    <string name="report_highest_drain">Highest Drain App</string>
+    <string name="report_best_day">Best Battery Day</string>
+    <string name="report_worst_day">Worst Battery Day</string>
+    <string name="report_total_apps">Total Apps Used</string>
+    <string name="report_apps_suffix">apps</string>
+
+    <!-- Health Labels -->
+    <string name="health_excellent">Excellent</string>
+    <string name="health_good">Good</string>
+    <string name="health_fair">Fair</string>
+    <string name="health_poor">Poor</string>
+    <string name="health_critical">Critical</string>
+
+    <!-- Health Tips -->
+    <string name="health_tip_excellent">Your battery habits are excellent. Keep it up!</string>
+    <string name="health_tip_good">Good battery health. Small improvements possible.</string>
+    <string name="health_tip_fair">Fair health. Reduce background apps and overnight charging.</string>
+    <string name="health_tip_poor">Poor health. Urgent: change charging habits and close background apps.</string>
+
+    <!-- Guardian Messages -->
+    <string name="guardian_no_data">Unable to read usage data.</string>
+    <string name="guardian_no_pattern">Not enough data for pattern analysis.</string>
+    <string name="guardian_no_drain">No significant battery drain detected.</string>
+    <string name="guardian_no_idle">No idle apps detected. Great job!</string>
+    <string name="guardian_charging">Charging in progress. Battery is being replenished.</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_battery_status">Current battery percentage</string>
+    <string name="cd_estimated_time">Estimated battery life remaining</string>
+    <string name="cd_tab_appwise">Switch to app wise view</string>
+    <string name="cd_tab_weekly">Switch to weekly view</string>
+    <string name="cd_dashboard_button">Open advanced battery dashboard</string>
+    <string name="cd_progress_bar">Battery usage progress</string>
+
+    <!-- Score and status formats -->
+    <string name="score_format">%1$d / 100</string>
+    <string name="health_status_format">Health Status: %1$s</string>
+
+    <!-- Time formats -->
+    <string name="time_format_hm">%1$dh %2$dm</string>
+    <string name="time_format_m">%1$dm</string>
+
+    <!-- Report apps count -->
+    <string name="report_apps_count">%1$d apps</string>
+</resources>
